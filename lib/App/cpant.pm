@@ -2,11 +2,11 @@ package App::cpant;
 
 # ABSTRACT: The great new App::cpant!
 
-use Moose;
-use namespace::autoclean;
+use strict;
+use warnings;
 
+use App::Cmd::Setup -app;
 
-__PACKAGE__->meta->make_immutable;
 !!42;
 __END__
 
